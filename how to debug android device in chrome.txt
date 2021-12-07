@@ -1,0 +1,6 @@
+How to run debug android device in chrome
+1. Run Command Line
+	ionic cordova run android -l --external
+2. Go to Chrome and type
+	chrome://inspect/#devices
+3. Find the device and click on "inspect"

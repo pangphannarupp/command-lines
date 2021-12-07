@@ -1,0 +1,3 @@
+How to livereload android device in ionic
+Run Command Line
+	ionic cordova run android --livereload

@@ -1,0 +1,8 @@
+How to clear android without remove platform
+Run These Command Lines
+
+cd platforms/android
+./gradlew clean
+cd ../..
+ionic cordova build android
+ionic cordova run android --livereload
