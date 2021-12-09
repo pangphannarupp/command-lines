@@ -1,0 +1,11 @@
+How to create own cordova plugin
+1. Install Cordova
+	- npm install -g cordova
+2. Install Plugman
+	- npm install -g plugman
+3. Create your plugin
+	- plugman create --name <plugin_name> --plugin_id <com.mcnc.plugin_name> --plugin_version <1.0.0>
+3. Add platforms
+	- plugman platform add --platform_name <android/ios>
+4. Create package.json
+	- plugman createpackagejson .
