@@ -6,3 +6,8 @@ cd platforms/android
 cd ../..
 ionic cordova build android
 ionic cordova run android --livereload
+
+cd platforms/ios
+xcodebuild clean
+cd ../..
+ionic cordova build ios
